@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mercado Estudiantil | TecEats</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">
+    <div class="logo-icon">🍔</div>
+    TecEats
+  </div>
+
+  <div class="header-actions">
+    <span class="welcome">✅ ¡Bienvenido!</span>
+    <button class="btn">Mercado</button>
+    <button class="btn-outline" onclick="location.href='index.html'">Salir</button>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="market">
+
+  <!-- TITULO -->
+  <section class="market-header">
+    <h1>Mercado Estudiantil</h1>
+    <p>Explora lo que tus compañeros están vendiendo hoy en el Tec.</p>
+
+    <input
+      type="text"
+      class="search"
+      placeholder="🔍 Buscar comida o vendedor..."
+    >
+  </section>
+
+  <!-- FILTROS -->
+  <div class="filters">
+    <button class="filter active">🍽️ Todo</button>
+    <button class="filter">🍳 Desayunos</button>
+    <button class="filter">🌮 Comidas</button>
+    <button class="filter">🍿 Botanas</button>
+    <button class="filter">🥤 Bebidas</button>
+  </div>
+
+  <!-- GRID DE PRODUCTOS -->
+  <section class="products">
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1600891964599-f61ba0e24092" alt="">
+      <span class="tag">Comida</span>
+      <h3>Tacos de Bistec</h3>
+      <p class="price">$15</p>
+      <small>Con cebolla, cilantro y salsa verde.</small>
+      <div class="seller">TA · Tacos El Inge</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1605478528073-6c2b3c8c8f49" alt="">
+      <span class="tag">Comida</span>
+      <h3>Gringas</h3>
+      <p class="price">$45</p>
+      <small>Tortilla de harina con queso y pastor.</small>
+      <div class="seller">TA · Tacos El Inge</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1585238342028-4bbc3c2f8c84" alt="">
+      <span class="tag">Botana</span>
+      <h3>Chips con Salsa</h3>
+      <p class="price">$20</p>
+      <small>Bolsa preparada con limón y salsa.</small>
+      <div class="seller">DU · Dulces y Snacks</div>
+    </div>
+
+    <div class="product-card">
+      <img src="https://images.unsplash.com/photo-1592924357228-91a4daadcfea" alt="">
+      <span class="tag">Bebida</span>
+      <h3>Coca Cola 600ml</h3>
+      <p class="price">$18</p>
+      <small>Bien fría.</small>
+      <div class="seller">DU · Dulces y Snacks</div>
+    </div>
+
+  </section>
+
+</main>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portal de usuario</title>
+  <link rel="stylesheet" href="logins.css">
+</head>
+
+<body class="login usuario">
+
+<a href="index.html" class="back">←</a>
+
+<div class="login-card">
+
+  <div class="login-header">
+    <div class="icon">👤</div>
+    <h1>Portal de usuario</h1>
+    <p>Inicia sesión para continuar</p>
+  </div>
+
+  <div class="auth-tabs">
+    <button class="tab active" id="loginTab">Iniciar Sesión</button>
+    <button class="tab" id="registerTab">Registrarse</button>
+    <div class="tab-indicator"></div>
+  </div>
+
+  <div class="auth-forms">
+
+    <!-- LOGIN -->
+    <form class="form" id="loginForm">
+      <label>Número de Control</label>
+      <input type="text" placeholder="Ej. 19280345">
+
+      <label>Contraseña</label>
+      <input type="password" placeholder="••••••••">
+
+      <button class="submit">Ingresar →</button>
+    </form>
+
+    <!-- REGISTRO -->
+    <form class="form" id="registerForm">
+      <label>Nombre</label>
+      <input type="text" placeholder="Tu nombre">
+
+      <label>Número de Control</label>
+      <input type="text">
+
+      <label>Contraseña</label>
+      <input type="password">
+
+      <button class="submit">Registrarse</button>
+    </form>
+
+  </div>
+
+</div>
+
+<script src="formulario.js"></script>
+</body>
+</html>
