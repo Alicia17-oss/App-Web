@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Panel de Vendedor | TecEats</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="panel_vendedor.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">
+    <div class="logo-icon"></div>
+    <span>TecEats</span>
+  </div>
+
+  <div class="header-actions">
+    <button class="btn-outline">☀️</button>
+    <button class="btn">Mi Puesto</button>
+    <button class="btn-outline" onclick="location.href='index.html'">Salir</button>
+  </div>
+</header>
+
+<!-- MAIN -->
+<main class="vendor-panel">
+
+  <!-- TITULO -->
+  <section class="panel-header">
+    <div>
+      <h1>Panel de Vendedor</h1>
+      <p>Gestiona tu menú y disponibilidad</p>
+    </div>
+
+    <div class="store-status">
+      <div class="status">
+        <span class="dot"></span>
+        <div>
+          <small>Estado de la Tienda</small>
+          <strong>ABIERTO (Visible)</strong>
+        </div>
+      </div>
+      <button class="btn-danger">Cerrar Tienda</button>
+    </div>
+  </section>
+
+  <!-- MENU -->
+  <section class="menu-section">
+    <div class="menu-header">
+      <h2>Tu Menú</h2>
+      <button class="btn-primary">+ Agregar Producto</button>
+    </div>
+
+    <div class="products">
+
+      <!-- PRODUCTO -->
+      <div class="product-card">
+        <img src="img/tacos.jpg" alt="Tacos">
+        <span class="price">$15</span>
+
+        <div class="product-body">
+          <h3>Tacos de Bistec</h3>
+          <span class="tag">COMIDA</span>
+          <p>Con cebolla, cilantro y salsa verde.</p>
+
+          <div class="product-footer">
+            <span class="available">● Disponible</span>
+            <button class="icon-btn">🗑️</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCTO -->
+      <div class="product-card">
+        <img src="img/gringas.jpg" alt="Gringas">
+        <span class="price">$45</span>
+
+        <div class="product-body">
+          <h3>Gringas</h3>
+          <span class="tag">COMIDA</span>
+          <p>Tortilla de harina con queso y pastor.</p>
+
+          <div class="product-footer">
+            <span class="available">● Disponible</span>
+            <button class="icon-btn">🗑️</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+</body>
+</html>
