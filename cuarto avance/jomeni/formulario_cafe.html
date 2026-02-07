@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Vendedor</title>
+  <link rel="stylesheet" href="estilos/logins.css">
+</head>
+
+<body class="login Cafe">
+
+<a href="index.html" class="back">←</a>
+
+<div class="login-card">
+
+  <div class="login-header">
+   <img src="imagenes/cafe.png" class="icono-cafe" alt="icono cafe">
+    <h1>Portal de Cafeteria</h1>
+    <p>Accede para gestionar ventas</p>
+  </div>
+
+  <div class="auth-tabs">
+    <button id="loginTab" class="tab active">Iniciar sesión</button>
+    <button id="registerTab" class="tab">Registrarse</button>
+    <div class="tab-indicator"></div>
+  </div>
+
+  <div class="auth-forms">
+
+    <form class="form" action="panel_cafe.php">
+      <label>Usuario</label>
+      <input type="text">
+
+      <label>Contraseña</label>
+      <input type="password">
+
+      <button class="submit">Ingresar</button>
+    </form>
+
+    <form class="form">
+      <label>Nombre del local</label>
+      <input type="text">
+
+      <label>Usuario</label>
+      <input type="text">
+
+      <label>Contraseña</label>
+      <input type="password">
+
+      <button class="submit">Registrar</button>
+    </form>
+
+  </div>
+</div>
+
+<script src="formulario.js"></script>
+</body>
+</html>
+ 
